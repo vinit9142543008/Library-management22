@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1777367629739,
+    "firstname": "VINIT",
+    "lastname": "SINGH",
+    "email": "vinit999000@gmail.com",
+    "mobileNumber": "09142543008",
+    "password": "$2b$10$ThGvUl0HISPNTo8z6hBXIe3ZzxvwNBzqkFePm2Uyl43AbcpBOVcvS",
+    "role": "student",
+    "isBlocked": false
+  },
+  {
+    "id": 1777368753847,
+    "firstname": "Aryan",
+    "lastname": "singh",
+    "email": "abcd@gmail.com",
+    "mobileNumber": "1234567890",
+    "password": "$2b$10$m9XRdbZQ6OOpch.cnAhT/ebCiOSOFa2G2CZXcRYHI6gP07ufr1W2e",
+    "role": "student",
+    "isBlocked": false
+  },
+  {
+    "id": 1777368999372,
+    "firstname": "VINIT",
+    "lastname": "SINGH",
+    "email": "vinitsingh@gmail.com",
+    "mobileNumber": "0914254300 ",
+    "password": "$2b$10$szpx5ckdQVHqpYzihNbxcOWPO5EvAVxZ8DY6rD5oezoeNIGG/exfK",
+    "role": "student",
+    "isBlocked": false
+  },
+  {
+    "id": 1,
+    "firstname": "Admin",
+    "lastname": "User",
+    "email": "admin@test.com",
+    "mobileNumber": "9999999999",
+    "password": "$2b$10$AQo7jNHClf.e/UOwD7tAHeu3Cn/9ehLdC0MrHRlEej0QEDM5jycRC",
+    "role": "admin",
+    "isBlocked": false
+  },
+  {
+    "id": 1777438065136,
+    "firstname": "VINIT ",
+    "lastname": "SINGH ",
+    "email": "vinit00@gmail.com",
+    "mobileNumber": "0142543008",
+    "password": "$2b$10$NykQ9sqGdh5oLJet3T5x5ul1nYfBpcukxPgbqgXlYokwepv9rYuFe",
+    "role": "student",
+    "isBlocked": false
+  },
+  {
+    "id": 1777553295484,
+    "firstname": "VINIT ",
+    "lastname": "SINGH",
+    "email": "vinitsingh999000@gmail.com",
+    "mobileNumber": "09142543008",
+    "password": "$2b$10$jPlbPG4D9ARoSItfBVxx7ei8h.VaC7fh8jnJMhF1bb50zfc69L4NO",
+    "role": "student",
+    "isBlocked": false
+  }
+]

@@ -1,0 +1,21 @@
+# ========================
+# FRONTEND (Angular)
+# ========================
+lmsw/node_modules/
+lmsw/dist/
+lmsw/.angular/
+
+# ========================
+# BACKEND (Node/Express)
+# ========================
+backend/node_modules/
+backend/.env
+
+# ========================
+# COMMON
+# ========================
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

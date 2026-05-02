@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "Programming",
+    "price": 650,
+    "quantity": 4
+  },
+  {
+    "id": 2,
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "category": "JavaScript",
+    "price": 500,
+    "quantity": 7
+  },
+  {
+    "id": 33,
+    "title": "Angular Complete Guide",
+    "author": "Maximilian Schwarzmüller",
+    "category": "Angular",
+    "price": 700,
+    "quantity": 6
+  },
+  {
+    "id": 12,
+    "title": "Java: The Complete Reference",
+    "author": "Herbert Schildt",
+    "category": "Java",
+    "price": 750,
+    "quantity": 4
+  },
+  {
+    "id": 11,
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "category": "Python",
+    "price": 600,
+    "quantity": 7
+  },
+  {
+    "id": 10,
+    "title": "Database System Concepts",
+    "author": "Abraham Silberschatz",
+    "category": "Database",
+    "price": 900,
+    "quantity": 3
+  },
+  {
+    "id": 16,
+    "title": "Operating System Concepts",
+    "author": "Silberschatz",
+    "category": "OS",
+    "price": 850,
+    "quantity": 5
+  },
+  {
+    "id": 123,
+    "title": "Computer Networks",
+    "author": "Andrew Tanenbaum",
+    "category": "Networking",
+    "price": 800,
+    "quantity": 6
+  },
+  {
+    "id": 127,
+    "title": "HTML and CSS Design",
+    "author": "Jon Duckett",
+    "category": "Frontend",
+    "price": 550,
+    "quantity": 9
+  },
+  {
+    "id": 129,
+    "title": "React Explained",
+    "author": "Zac Gordon",
+    "category": "Frontend",
+    "price": 700,
+    "quantity": 4
+  },
+  {
+    "id": 1777706145383,
+    "title": "New Coders",
+    "author": "OWN",
+    "category": "Coders",
+    "price": 11123,
+    "quantity": 10
+  }
+]
