@@ -1,0 +1,36 @@
+<h2>All Users</h2>
+
+<table border="1" cellpadding="10">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Role</th>
+    <th>Status</th>
+    <th>Action</th>
+  </tr>
+
+  <tr *ngFor="let user of users; ">
+    
+    <td>{{user.firstname}} {{user.lastname}}</td>
+    <td>{{user.email}}</td>
+    <td>{{user.role}}</td>
+
+    <!-- STATUS -->
+    <td>
+      <span *ngIf="user.isBlocked; else active">Blocked</span>
+      <ng-template #active>Active</ng-template>
+    </td>
+
+    <!-- BUTTONS -->
+    <td>
+      <button *ngIf="!user.isBlocked" (click)="blockUser(user.id)">
+        Block
+      </button>
+
+      <button *ngIf="user.isBlocked" (click)="unblockUser(user.id)">
+        Unblock
+      </button>
+    </td>
+
+  </tr>
+</table>

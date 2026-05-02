@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+/* @import '@angular/material/prebuilt-themes/deeppurple-amber.css';html, body { height: 100%; background-color: black; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-drawer {
+  background:black;
+} */
+
+/* Material Theme */
+/* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+
+/* Full page setup */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

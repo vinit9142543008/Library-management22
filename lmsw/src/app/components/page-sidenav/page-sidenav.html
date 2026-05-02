@@ -1,0 +1,48 @@
+<!-- -<mat-card>
+    <mat-card-content style="background-color: rgb(188, 188, 175);">
+        <h2>{{panalName}}</h2>
+        
+    </mat-card-content>
+</mat-card>
+
+<mat-nav-list>
+           <a routerLink="/allBooks"  mat-list-item >All Books</a>
+
+   <a routerLink="/getallusers"  mat-list-item >All Users</a>
+   <a routerLink="bookborrow" mat-list-item>BookBorrow</a>
+   <a routerLink="/datalist" mat-list-item>My Order</a>
+</mat-nav-list>  -->
+
+<mat-card>
+  <mat-card-content class="panel-header">
+    <h2>{{ panalName }}</h2>
+  </mat-card-content>
+</mat-card>
+
+<mat-nav-list *ngIf="auth.isStudent()">
+
+  <a mat-list-item routerLink="/student/books" routerLinkActive="active-link">
+    📚 View Books
+  </a>
+
+  <a mat-list-item routerLink="/student/orders" routerLinkActive="active-link">
+    📄 My Orders
+  </a>
+
+</mat-nav-list>
+
+<mat-nav-list *ngIf="auth.isAdmin()">
+
+  <a mat-list-item routerLink="/admin/users" routerLinkActive="active-link">
+    👥 All Users
+  </a>
+
+  <a mat-list-item routerLink="/admin/books" routerLinkActive="active-link">
+    📚 Manage Books
+  </a>
+
+  <a mat-list-item routerLink="/admin/orders" routerLinkActive="active-link">
+    📊 All Orders
+  </a>
+
+</mat-nav-list> 

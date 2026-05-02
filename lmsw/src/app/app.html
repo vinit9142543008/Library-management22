@@ -1,0 +1,18 @@
+
+<mat-sidenav-container>
+     <mat-sidenav opened="true" mode="side" 
+     style="background-color: rgb(253, 247, 247); border: none;">
+     <app-page-sidenav></app-page-sidenav>
+    </mat-sidenav>
+     <mat-sidenav-content>
+        <app-page-header></app-page-header>
+
+ <main style="background-color: rgb(248, 245, 245);">
+  <router-outlet></router-outlet>
+  
+</main>
+
+<app-page-footer></app-page-footer>
+
+     </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,10 @@
+mat-toolbar {
+    /* background-color: black ; */
+   .specer{
+    flex: 1 1 auto;
+   }
+    .copyringht{
+        display: flex;
+        align-items: center;
+    }
+}

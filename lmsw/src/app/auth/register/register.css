@@ -1,0 +1,42 @@
+:host{
+    display: flex;
+    /* justify-content: center; */
+    /* border: 2px solid black; */
+    height: 90%;
+}
+.register-form{
+     
+    width: 600px;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    /* border-left: 1px solid black; */
+    mat-card{
+        mat-card-header{
+            display: flex;
+            justify-content: center;
+        }
+        mat-grid-tile{
+            mat-form-field{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.library-info{
+    width: 400px;
+    padding: 1rem;
+    margin-left: 10vh;
+    border-left: 1px solid black;
+    
+    mat-list-item{
+        height: auto;
+        p{
+            white-space: normal;
+            font-style: italic;
+            font-size: 1.5rem;
+            text-align: justify;
+        }
+    }
+
+}

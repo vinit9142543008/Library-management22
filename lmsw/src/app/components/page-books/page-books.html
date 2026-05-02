@@ -1,0 +1,143 @@
+<h2> Books Management</h2>
+
+<button mat-raised-button color="primary" (click)="openAddForm()">
+   Add Book
+</button>
+   
+ <br>
+ <div *ngIf="showForm">
+
+  <h3>{{ isEdit ? 'Update Book' : 'Add Book' }}</h3>
+
+  <mat-form-field>
+    <mat-label>Title</mat-label>
+    <input matInput [(ngModel)]="booksForm.title">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Author</mat-label>
+    <input matInput [(ngModel)]="booksForm.author">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Category</mat-label>
+    <input matInput [(ngModel)]="booksForm.category">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Price</mat-label>
+    <input matInput type="number" [(ngModel)]="booksForm.price">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Quantity</mat-label>
+    <input matInput type="number" [(ngModel)]="booksForm.quantity">
+  </mat-form-field>
+
+  <br>
+
+  <button mat-raised-button color="primary" (click)="saveBooks()">
+    {{ isEdit ? 'Update' : 'Save' }}
+  </button>
+
+  <button mat-button (click)="cancel()">Cancel</button>
+
+</div>
+<br><br>
+
+<table mat-table [dataSource]="books" class="mat-elevation-z8">
+
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef>ID</th>
+    <td mat-cell *matCellDef="let book">{{book.id}}</td>
+  </ng-container>
+
+  
+  <ng-container matColumnDef="title">
+    <th mat-header-cell *matHeaderCellDef>Title</th>
+    <td mat-cell *matCellDef="let book">{{book.title}}</td>
+  </ng-container>
+
+  
+  <ng-container matColumnDef="author">
+    <th mat-header-cell *matHeaderCellDef>Author</th>
+    <td mat-cell *matCellDef="let book">{{book.author}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="category">
+    <th mat-header-cell *matHeaderCellDef>Category</th>
+    <td mat-cell *matCellDef="let book">{{book.category}}</td>
+  </ng-container>
+
+  
+  <ng-container matColumnDef="price">
+    <th mat-header-cell *matHeaderCellDef>Price</th>
+    <td mat-cell *matCellDef="let book">{{book.price}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="quantity">
+    <th mat-header-cell *matHeaderCellDef>Quantity</th>
+    <td mat-cell *matCellDef="let book">{{book.quantity}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef>Actions</th>
+
+    <td mat-cell *matCellDef="let book">
+
+      
+      <button mat-icon-button color="primary" (click)="editBook(book)" style="margin-right: 20px;">
+        UPDATE
+      </button>
+       <br>
+      <button mat-icon-button color="warn" (click)="deleteBook(book.id)">
+DELETE      </button>
+
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+</table>
+
+<hr>
+
+<!-- <div *ngIf="showForm">
+
+  <h3>{{ isEdit ? 'Update Book' : 'Add Book' }}</h3>
+
+  <mat-form-field>
+    <mat-label>Title</mat-label>
+    <input matInput [(ngModel)]="booksForm.title">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Author</mat-label>
+    <input matInput [(ngModel)]="booksForm.author">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Category</mat-label>
+    <input matInput [(ngModel)]="booksForm.category">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Price</mat-label>
+    <input matInput type="number" [(ngModel)]="booksForm.price">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Quantity</mat-label>
+    <input matInput type="number" [(ngModel)]="booksForm.quantity">
+  </mat-form-field>
+
+  <br>
+
+  <button mat-raised-button color="primary" (click)="saveBooks()">
+    {{ isEdit ? 'Update' : 'Save' }}
+  </button>
+
+  <button mat-button (click)="cancel()">Cancel</button>
+
+</div> -->

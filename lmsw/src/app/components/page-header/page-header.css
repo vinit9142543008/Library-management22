@@ -1,0 +1,22 @@
+mat-toolbar {
+   .specer{
+    flex: 1 1 auto;
+   }
+    .user-info{
+    display: flex;
+    align-items: center;
+ }
+ button{
+    margin-left: 1rem;
+
+ }
+}
+
+.profile-box {
+  padding: 10px 20px;
+  min-width: 200px;
+}
+
+.profile-box p {
+  margin: 5px 0;
+}

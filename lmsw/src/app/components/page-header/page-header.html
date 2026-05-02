@@ -1,0 +1,23 @@
+<mat-toolbar>
+    <span>Libary Management System</span>
+    <span class="specer"></span>
+    <div class="user-info">
+        <!-- <div class="name"> Hi, {{userName}}  </div> -->
+        <button mat-raised-button color="accent" [matMenuTriggerFor]="profileMenu"> 
+           Hi, {{userName}}  
+            <mat-menu  #profileMenu="matMenu">
+                <div class="profile-box">
+                 <p><strong>Name:</strong> {{ userName }}</p>
+        <p><strong>Email:</strong> {{ user?.email }}</p>
+        <p><strong>Role:</strong> {{ role }}</p>
+        <p><strong>Mobile:</strong> {{ user?.mobileNumber }}</p>
+
+                </div>
+            </mat-menu>
+
+        </button>
+    <button mat-raised-button color="warn" (click)="logout()">Log Out</button>
+
+    </div>
+
+</mat-toolbar>
