@@ -57,48 +57,6 @@ const hashedPassword = await bcrypt.hash(password, 10);
   res.status(201).json({ message: 'Registered successfully' });
 };
 
-// export const loginUser = async (req, res) => {
-//   const { email, password } = req.body;
-
-//   const users = getUsers();
-//   const user = users.find(u => u.email === email);
-
-//   if (!user) {
-//     return res.status(400).json({ message: 'User not found' });
-//   }
-
-//   if(user.isBlocked){
-//     return res.json(403).json({
-//       message:'You are Blocked By admin'
-//     })
-//   }
-
-//   const isMatch = await bcrypt.compare(password, user.password);
-
-//   if (!isMatch) {
-//     return res.status(400).json({ message: 'Invalid password' });
-//   }
-
-//   const token = jwt.sign(
-//     { id: user.id, email: user.email,role:user.role },
-//     'SECRET_KEY',
-//     { expiresIn: '1h' }
-//   );
-//   res.json({
-//     message:'Login Success',
-//     token,
-//     user:{
-//       id:user.id,
-//       firstname:user.firstname,
-//       lastname:user.lastname,
-//       email:user.email,
-//       mobileNumber:user.mobileNumber,
-//       role:user.role
-//     }
-//   })
-
-//   // res.json({ message: 'Login success', token });
-// };
 
 export const loginUser = async (req, res) => {
   const { email, password } = req.body;

@@ -7,7 +7,7 @@
     "mobileNumber": "09142543008",
     "password": "$2b$10$ThGvUl0HISPNTo8z6hBXIe3ZzxvwNBzqkFePm2Uyl43AbcpBOVcvS",
     "role": "student",
-    "isBlocked": false
+    "isBlocked": true
   },
   {
     "id": 1777368753847,
