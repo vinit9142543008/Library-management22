@@ -29,7 +29,6 @@ books: any[] = [];
 
   borrowBook(book: any) {
     const data = {
-      studentId: 1,
       bookId: book.id
     };
 

@@ -5,7 +5,7 @@
     "lastname": "SINGH",
     "email": "vinit999000@gmail.com",
     "mobileNumber": "09142543008",
-    "password": "$2b$10$ThGvUl0HISPNTo8z6hBXIe3ZzxvwNBzqkFePm2Uyl43AbcpBOVcvS",
+    "password": "$2b$10$LlgEGmttc07ifMtkpT4zQuH4TwUgzhRM5m/hoTYJSYYrtRaA52jTm",
     "role": "student",
     "isBlocked": true
   },
@@ -15,7 +15,7 @@
     "lastname": "singh",
     "email": "abcd@gmail.com",
     "mobileNumber": "1234567890",
-    "password": "$2b$10$m9XRdbZQ6OOpch.cnAhT/ebCiOSOFa2G2CZXcRYHI6gP07ufr1W2e",
+    "password": "$2b$10$Ane8DmWdQAqIwLLPkRjj7e/byl7kCqdZznmnpEoztYIpAONx0xjsy",
     "role": "student",
     "isBlocked": false
   },
@@ -56,6 +56,16 @@
     "email": "vinitsingh999000@gmail.com",
     "mobileNumber": "09142543008",
     "password": "$2b$10$jPlbPG4D9ARoSItfBVxx7ei8h.VaC7fh8jnJMhF1bb50zfc69L4NO",
+    "role": "student",
+    "isBlocked": false
+  },
+  {
+    "id": 1777789565310,
+    "firstname": "Rishi",
+    "lastname": "Singh",
+    "email": "Rishi@gmail.com",
+    "mobileNumber": "1111111111",
+    "password": "$2b$10$V4HCaGPK0AHeTftOG4/kbe7W1T8oTNIFs7qFxlX1ZXz.ao9RulEPq",
     "role": "student",
     "isBlocked": false
   }

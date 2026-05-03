@@ -106,5 +106,41 @@
     "dueDate": "2026-05-10T12:50:36.905Z",
     "returnDate": "2026-04-30T15:18:11.265Z",
     "fine": 0
+  },
+  {
+    "id": 1777789992116,
+    "studentId": 1777789565310,
+    "bookId": 2,
+    "borrowDate": "2026-05-03T06:33:12.115Z",
+    "dueDate": "2026-05-13T06:33:12.115Z",
+    "returnDate": "2026-05-03T06:33:17.980Z",
+    "fine": 0
+  },
+  {
+    "id": 1777790008907,
+    "studentId": 1777368753847,
+    "bookId": 2,
+    "borrowDate": "2026-05-03T06:33:28.907Z",
+    "dueDate": "2026-05-13T06:33:28.907Z",
+    "returnDate": null,
+    "fine": 0
+  },
+  {
+    "id": 1777790015627,
+    "studentId": 1777368753847,
+    "bookId": 12,
+    "borrowDate": "2026-05-03T06:33:35.627Z",
+    "dueDate": "2026-05-13T06:33:35.627Z",
+    "returnDate": null,
+    "fine": 0
+  },
+  {
+    "id": 1777790018751,
+    "studentId": 1777368753847,
+    "bookId": 16,
+    "borrowDate": "2026-05-03T06:33:38.751Z",
+    "dueDate": "2026-05-13T06:33:38.751Z",
+    "returnDate": null,
+    "fine": 0
   }
 ]

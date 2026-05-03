@@ -12,7 +12,7 @@ const bookPath = path.join(__dirname, "../data/book.json");
 const read = (file) => {
   try {
     if (!fs.existsSync(file)) return [];
-    const data = fs.readFileSync(file, "utfs-8");
+    const data = fs.readFileSync(file, "utf-8");
     return data ? JSON.parse(data) : [];
   } catch (err) {
     console.error("READ ERROR:", err);
